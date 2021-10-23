@@ -1,0 +1,106 @@
+:root {
+	--primary-color: #0077d1;
+	--grey-color: #9fa0a0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.text-grey {
+	color: var(--grey-color) !important;
+}
+
+.nav-menu {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 16px;
+	color: var(--primary-color) !important;
+}
+
+.login-btn {
+	height: 45px;
+	width: 100px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: var(--primary-color);
+}
+
+.banner-section {
+	background-image: url('../img/hero.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
+
+.header-title {
+	font-size: 25px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 29px;
+}
+
+.search-btn {
+	border-radius: 10px;
+	background-color: var(--primary-color);
+	padding: 10px 24px;
+	color: #fff;
+}
+
+.search-form {
+	background-color: #fff;
+	border-radius: 0;
+	width: 310px;
+}
+
+.carousel-content {
+	top: 30px;
+	left: 5%;
+}
+
+.carousel-indicators {
+	bottom: -200px;
+}
+
+.control {
+	bottom: -180px;
+}
+
+.book-title {
+	color: var(--primary-color);
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.title-underline {
+	padding: 1px;
+	background-color: var(--primary-color);
+	width: 60px;
+	opacity: 1;
+}
+
+.form-check-label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: var(--grey-color);
+}
+
+.form-label {
+	font-size: 14px;
+	color: var(--grey-color);
+}
+
+.checkin-input {
+	border: 1.5px solid var(--grey-color);
+	box-sizing: border-box;
+	border-radius: 8px;
+	height: 45px;
+}
